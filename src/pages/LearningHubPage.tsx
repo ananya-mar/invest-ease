@@ -53,13 +53,7 @@ const learningHubContent: Topic[] = [
         duration: '8:04',
         thumbnail: 'https://img.youtube.com/vi/rAqzpRZa78E/maxresdefault.jpg'
       },
-      {
-        id: 'sip-3',
-        title: 'SIP vs Lump Sum: Which Should You Choose?',
-        url: 'https://www.youtube.com/watch?v=HUA4qvYdZxk',
-        duration: '9:12',
-        thumbnail: 'https://img.youtube.com/vi/HUA4qvYdZxk/mqdefault.jpg'
-      }
+      
     ]
   },
   {
@@ -162,13 +156,7 @@ const learningHubContent: Topic[] = [
         duration: '1:08',
         thumbnail: 'https://img.youtube.com/vi/8Acn4zwwGxA/maxresdefault.jpg'
       },
-      {
-        id: 'gold-3',
-        title: 'Sovereign Gold Bonds Explained',
-        url: 'https://www.youtube.com/watch?v=5h5h5h5h5h5',
-        duration: '11:05',
-        thumbnail: 'https://img.youtube.com/vi/5h5h5h5h5h5/mqdefault.jpg'
-      }
+      
     ]
   },
   {
