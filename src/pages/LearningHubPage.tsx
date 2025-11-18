@@ -26,36 +26,7 @@ interface Topic {
  * Easy to extend with more topics and videos
  */
 const learningHubContent: Topic[] = [
-  {
-    id: 'sip',
-    title: 'SIP (Systematic Investment Plan)',
-    description:
-      'SIP is a disciplined approach to investing where you invest a fixed amount regularly (monthly) in mutual funds. It helps you build wealth gradually through the power of compounding and rupee cost averaging.',
-    keyPoints: [
-      'Start with as little as ₹500 per month',
-      'Automatically invest on a fixed date each month',
-      'Benefit from rupee cost averaging (buy more units when prices are low)',
-      'Ideal for long-term wealth creation (5+ years)',
-      'No need to time the market'
-    ],
-    videos: [
-      {
-        id: 'sip-1',
-        title: 'What is SIP? Complete Guide for Beginners',
-        url: 'https://youtu.be/1DRq8N7SpYc',
-        duration: '18:36',
-        thumbnail: 'https://img.youtube.com/vi/1DRq8N7SpYc/maxresdefault.jpg'
-      },
-      {
-        id: 'sip-2',
-        title: 'How To Do SIP?',
-        url: 'https://youtu.be/rAqzpRZa78E',
-        duration: '8:04',
-        thumbnail: 'https://img.youtube.com/vi/rAqzpRZa78E/maxresdefault.jpg'
-      },
-      
-    ]
-  },
+  
   {
     id: 'mutual-funds',
     title: 'Mutual Funds',
@@ -126,6 +97,36 @@ const learningHubContent: Topic[] = [
         duration: '3:10',
         thumbnail: 'https://img.youtube.com/vi/oVVt6P2q-6c/maxresdefault.jpg'
       }
+    ]
+  },
+  {
+    id: 'sip',
+    title: 'SIP (Systematic Investment Plan)',
+    description:
+      'SIP is a disciplined approach to investing where you invest a fixed amount regularly (monthly) in mutual funds. It helps you build wealth gradually through the power of compounding and rupee cost averaging.',
+    keyPoints: [
+      'Start with as little as ₹500 per month',
+      'Automatically invest on a fixed date each month',
+      'Benefit from rupee cost averaging (buy more units when prices are low)',
+      'Ideal for long-term wealth creation (5+ years)',
+      'No need to time the market'
+    ],
+    videos: [
+      {
+        id: 'sip-1',
+        title: 'What is SIP? Complete Guide for Beginners',
+        url: 'https://youtu.be/1DRq8N7SpYc',
+        duration: '18:36',
+        thumbnail: 'https://img.youtube.com/vi/1DRq8N7SpYc/maxresdefault.jpg'
+      },
+      {
+        id: 'sip-2',
+        title: 'How To Do SIP?',
+        url: 'https://youtu.be/rAqzpRZa78E',
+        duration: '8:04',
+        thumbnail: 'https://img.youtube.com/vi/rAqzpRZa78E/maxresdefault.jpg'
+      },
+      
     ]
   },
   {
