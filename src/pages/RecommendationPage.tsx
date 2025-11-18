@@ -349,15 +349,25 @@ export const RecommendationPage: React.FC = () => {
                       {section.label}
                     </h3>
                     <div className="space-y-4">
-                      {section.items.slice(0, 5).map((item: any, idx: number) => (
-                        <RecommendationCard
-                          key={`${section.label}-${idx}-${getItemName(item)}`}
-                          name={getItemName(item)}
-                          category={section.label}
-                          score={getItemScore(item)}
-                          explanation={buildExplanation(section.label, item?.explanation)}
-                        />
-                      ))}
+                      {section.items.slice(0, 5).map((item: any, idx: number) => {
+                        const name = getItemName(item)
+                        const id =
+                          item?.scheme_code ||
+                          item?.ticker ||
+                          item?.id ||
+                          `${section.label}-${name}`.toLowerCase().replace(/\s+/g, '-')
+
+                        return (
+                          <RecommendationCard
+                            key={`${section.label}-${idx}-${id}`}
+                            id={id}
+                            name={name}
+                            category={section.label}
+                            score={getItemScore(item)}
+                            explanation={buildExplanation(section.label, item?.explanation)}
+                          />
+                        )
+                      })}
                     </div>
                   </div>
                 )

@@ -12,6 +12,7 @@ import { SIPCalculatorPage } from './pages/SIPCalculatorPage'
 import { LearningHubPage } from './pages/LearningHubPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { FeedbackPage } from './pages/FeedbackPage'
+import { ProfilePage } from './pages/ProfilePage'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/sip-calculator" element={<SIPCalculatorPage />} />
           <Route path="/learning-hub" element={<LearningHubPage />} />
           <Route path="/feedback" element={<FeedbackPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
